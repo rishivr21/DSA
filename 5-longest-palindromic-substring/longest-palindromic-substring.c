@@ -37,4 +37,5 @@ char * longestPalindrome(char * s) {
     result[resultLen] = '\0';
 
     return result;
+    
 }
