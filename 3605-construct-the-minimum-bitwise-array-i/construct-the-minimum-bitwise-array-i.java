@@ -17,6 +17,6 @@ class Solution {
             ans[i] = best;
         }
         return ans;
-        
+
     }
 }
