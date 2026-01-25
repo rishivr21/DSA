@@ -7,11 +7,11 @@ bool isValid(char* s) {
     for (int i = 0; s[i] != '\0'; i++) {
         char ch = s[i];
 
-        // Opening brackets
+        
         if (ch == '(' || ch == '{' || ch == '[') {
             stack[++top] = ch;
         } 
-        // Closing brackets
+        
         else {
             if (top == -1)
                 return false;
