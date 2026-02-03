@@ -5,9 +5,9 @@ class Solution {
         int start = 0, end = 0;
         
         for (int i = 0; i < s.length(); i++) {
-            // Case 1: Odd length palindrome (center is a character)
+            
             int len1 = expandAroundCenter(s, i, i);
-            // Case 2: Even length palindrome (center is between characters)
+            
             int len2 = expandAroundCenter(s, i, i + 1);
             
             int len = Math.max(len1, len2);
